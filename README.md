@@ -1,11 +1,9 @@
-# Sample Snack app
+# Poems Snack app
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
+This is a react native application that displays a list of poems
+ 
+The data for each song, which currently are just dummy data are stored in a Google spreadsheet and I use the [GraphQLSheet app](https://graphqlsheet.com/) to fetch them.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
+The navigation is done with the `react-navigation` and for the styling I use the `styled-components` package.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+This project is exported from Snack :)
